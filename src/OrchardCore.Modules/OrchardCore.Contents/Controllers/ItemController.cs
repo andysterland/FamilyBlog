@@ -29,7 +29,7 @@ namespace OrchardCore.Contents.Controllers
 
         public async Task<IActionResult> Display(string contentItemId, string jsonPath)
         {
-            var contentItem = await _contentManager.GetAsync(contentItemId, jsonPath);
+            var contentItem = await _contentManager.GetAsync(contentItemId+1, jsonPath);
 
             if (contentItem == null)
             {
