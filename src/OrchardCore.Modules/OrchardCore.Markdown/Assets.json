@@ -1,0 +1,24 @@
+[
+  {
+    "generateSourceMaps": false,
+    "generateRTL": true,
+    "inputs": [
+      "Assets/Styles/simplemde.scss"
+    ],
+    "output": "wwwroot/Styles/simplemde.css"
+  },
+  {
+    "generateSourceMaps": false,
+    "inputs": [
+      "Assets/Scripts/simplemde.mediatoolbar.js"
+    ],
+    "output": "wwwroot/Scripts/simplemde.mediatoolbar.js"
+  },
+  {
+    "copy": true,
+    "inputs": [
+      "Assets/Styles/fonts/*"
+    ],
+    "output": "wwwroot/Styles/fonts/"
+  }
+]
